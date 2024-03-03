@@ -20,13 +20,14 @@ You likely do not already have a schema named techjobs_auth or this combination 
  Note
 We’ve greatly reduced the functionality of the app so you can focus on the work to set up authentication. Running the application now gives you a familiar-looking navbar with two menu options, Add Jobs and Logout. You can add jobs right away and an astute observer of the starter code and schema tables will notice that the fields on Job are only strings, not complex objects. Logout functionality is not yet implemented, but you’ll get there by the end of this studio.
 
-Create the User Model
+* Create the User Model
 In the project you have cloned, create a User model identical to that in codingevents. The class needs:
 
 1.To be an entity.
 2.To have username and encrypted password fields.
 3. To have appropriate constructors, getters, setters.
-Encode the User password field.
+
+* Encode the User password field.
 
 Add a static BCryptPasswordEncoder variable.
 Update the constructor that has arguments to encode the password field.
