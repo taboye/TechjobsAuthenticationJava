@@ -23,9 +23,9 @@ We’ve greatly reduced the functionality of the app so you can focus on the wor
 Create the User Model
 In the project you have cloned, create a User model identical to that in codingevents. The class needs:
 
-To be an entity.
-To have username and encrypted password fields.
-To have appropriate constructors, getters, setters.
+1.To be an entity.
+2.To have username and encrypted password fields.
+3. To have appropriate constructors, getters, setters.
 Encode the User password field.
 
 Add a static BCryptPasswordEncoder variable.
